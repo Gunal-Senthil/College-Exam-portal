@@ -1,0 +1,98 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #35424a;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styling */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+main section {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    margin-bottom: 1rem;
+}
+
+main section form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+main section form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+main section form button {
+    display: inline-block;
+    background: #35424a;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+main section form button:hover {
+    background: #5f6368;
+}
+
+/* Footer styling */
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
